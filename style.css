@@ -54,4 +54,17 @@
         grid-template-columns: 1fr;;
     }
     
+    .column_left {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .hero_wrapper {
+        grid-template-rows: 600px;
+    }
+
+    .column_left h1 {
+        font-size: 32px;
+    }
 }
