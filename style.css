@@ -11,3 +11,26 @@
     color: #fff;
 }
 
+.hero_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 820px;;   
+}
+
+.column_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.column_left hh1 {
+    font-size: 60px;
+}
+
+.column_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
