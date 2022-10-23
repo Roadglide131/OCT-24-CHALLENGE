@@ -24,8 +24,13 @@
     align-items: flex-start;
 }
 
-.column_left hh1 {
+.column_left h1 {
     font-size: 60px;
+}
+
+.column_left p {
+    font-size: 16px;
+    line-height: 2.3;
 }
 
 .column_right {
@@ -33,4 +38,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.hero_img {
+    width: 10%;
+    height: 10%;
+}
+
+@media screen and (max-width: 1100px) {
+    .here_section {
+        padding: 30px;
+    }
+
+    .hero_wrapper {
+        grid-template-columns: 1fr;;
+    }
+    
 }
