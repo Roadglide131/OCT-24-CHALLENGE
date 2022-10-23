@@ -257,7 +257,7 @@
                 grid-template-rows: 900px;
             }
             .services_container h1 {
-                text-align: center;.
+                text-align: center;
                 margin-bottom: 100px;
             }
             .services_left {
@@ -278,3 +278,105 @@
     }
 
 /* Portfolio CSS */
+.portfolio {
+    background-color: #0f99ff;
+    color: #fff;
+}
+
+.portfolio_container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+
+.portfolio_container h1 {
+    font-size: 110px;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    margin-bottom: 32px;
+}
+
+.portfolio_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portfolio_img {
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio_right {
+    padding: 150px 100px 0 20px;
+}
+
+.portfolio_right h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.portfolio_right p {
+    margin-bottom: 50px;
+    line-height: 2.5;
+}
+
+.portfolio_right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ .portfolio_projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 32px 64px;
+ }
+
+    .portfolio_projects img {
+        padding: 0 8px;
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Portfolio Media Queries */
+    @media screen and (max-width: 1368px) {
+        .portfolio_projects {
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .portfolio {
+            padding 30px;
+        }
+
+            .portfolio_container h1 {
+                font-size: 70px;
+            }
+
+            .portfolio_main {
+                grid-template-columns: 1fr;
+            }
+
+            .portfolio_container {
+                padding-left: 0px;
+            }
+
+            .portfolio_right {
+                margin-bottom: 60px;
+            }
+        }
+
+        @media screen and (max-width: 468px) {
+            .portfolio {
+                padding 10px;
+            }
+
+            .portfolio_container h1 {
+                font-size: 40px;
+            }
+        }
+            
+/* Contact CSS */
