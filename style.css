@@ -90,7 +90,7 @@ html {
 .hero_section {
   background: #0f99ff;
   color: #fff;
-  padding: 100px 0px;
+  padding: 25px 0px;
 }
 
 .hero_img {
@@ -216,7 +216,7 @@ html {
 }
 
 .portfolio_container h1 {
-  font-size: 110px;
+  font-size: 80px;
   color: #fff;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0.5px;
