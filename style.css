@@ -17,10 +17,13 @@ html {
 
 .column_left h3 {
   font-size: 40px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fff;
 }
 
 .column_left p {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 2.3;
 }
 
@@ -137,6 +140,8 @@ html {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 32px;
+  font-style: italic;
+  font-weight: 100;
 }
 
 .main_text p {
@@ -214,7 +219,7 @@ html {
   font-size: 110px;
   color: #fff;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #fff;
   margin-bottom: 32px;
 }
